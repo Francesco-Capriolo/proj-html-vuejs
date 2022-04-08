@@ -44,9 +44,12 @@ export default {
 }
 .search-header {
   height: 8vh;
+  margin: 0 auto;
+  width: 90%;
   span {
     font-size: 12px;
     color: gray;
+    cursor: pointer;
   }
   i {
     margin: 0 0.5rem;
@@ -54,7 +57,7 @@ export default {
   }
 }
 .input-group {
-  width: 80%;
+  width: 75%;
   input {
     background-color: #f0f2f5;
   }

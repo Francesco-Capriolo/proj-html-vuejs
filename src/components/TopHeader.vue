@@ -37,6 +37,8 @@ export default {
 
 <style lang="scss" scoped>
 .top-header {
+  margin: 0 auto;
+  width: 90%;
   font-size: 12px;
   color: grey;
   height: 4vh;
@@ -44,5 +46,6 @@ export default {
 }
 i {
   margin: 0 0.3rem;
+  cursor: pointer;
 }
 </style>
