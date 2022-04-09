@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import TopHeader from "./TopHeader.vue";
-import SearchHeader from "./SearchHeader.vue";
-import IconsHeader from "./IconsHeader.vue";
+import TopHeader from "./headerComponents/TopHeader.vue";
+import SearchHeader from "./headerComponents/SearchHeader.vue";
+import IconsHeader from "./headerComponents/IconsHeader.vue";
 
 export default {
   name: "IndexHeader",

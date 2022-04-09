@@ -1,6 +1,15 @@
 <template>
   <section class="container-fluid">
-    <p class="pt-5 fw-bold">Popular Development Courses</p>
+    <h3 class="pt-5 fw-bold text-center pb-3">Recent Courses</h3>
+    <div class="text-center mb-4">
+      <span
+        v-for="number in linksCourses"
+        :key="number"
+        class="p-3 rounded-pill"
+        >{{ number }}</span
+      >
+    </div>
+
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-4">
       <div
         class="col"
@@ -45,12 +54,22 @@
 
 <script>
 export default {
-  name: "PopularCouses",
+  name: "RecentCourses",
   data: function () {
     return {
+      linksCourses: [
+        "All Category",
+        "Business",
+        "Design",
+        "Development",
+        "It&Software",
+        "Lyfestyle",
+        "Marketing",
+        "Office Productivity",
+      ],
       courses: [
         {
-          img: require("../img/895786_7b4b_2-272x161.jpg"),
+          img: require("../../img/895786_7b4b_2-272x161.jpg"),
           info: "Development",
           text: "the complete IOS 10 & Swift 3 Developer Course",
           vote: 4,
@@ -58,7 +77,7 @@ export default {
           price: "$100",
         },
         {
-          img: require("../img/246154_d8b0_3-272x161.jpg"),
+          img: require("../../img/246154_d8b0_3-272x161.jpg"),
           info: "Development",
           text: "Web Design for beginners:Real World Coding in HTML & CSS",
           vote: 4,
@@ -66,7 +85,7 @@ export default {
           price: "$65",
         },
         {
-          img: require("../img/752950_b773-272x161.jpg"),
+          img: require("../../img/752950_b773-272x161.jpg"),
           info: "Development",
           text: "GitHub Ultimate: MAster GIt and GitHub- Beginner Expert",
           vote: 4,
@@ -74,7 +93,7 @@ export default {
           price: "$50",
         },
         {
-          img: require("../img/1253188_58f7_2-272x161.jpg"),
+          img: require("../../img/1253188_58f7_2-272x161.jpg"),
           info: "Development",
           text: "the complete IOS 10 & Swift 3 Developer Course - Build 20 Apps",
           vote: 4,
@@ -82,7 +101,7 @@ export default {
           price: "$100",
         },
         {
-          img: require("../img/919872_ed54_6-272x161.jpg"),
+          img: require("../../img/919872_ed54_6-272x161.jpg"),
           info: "Development",
           text: "Android Java Masterclass - Become an App Developer",
           vote: 4,
@@ -90,7 +109,55 @@ export default {
           price: "$50",
         },
         {
-          img: require("../img/951684_9c1a_2-272x161.jpg"),
+          img: require("../../img/951684_9c1a_2-272x161.jpg"),
+          info: "Development",
+          text: "Xamarin Forms:Build Native Cross-platform Apps with C#",
+          vote: 4,
+          discount: "$199,99",
+          price: "$95",
+        },
+        {
+          img: require("../../img/895786_7b4b_2-272x161.jpg"),
+          info: "Development",
+          text: "the complete IOS 10 & Swift 3 Developer Course",
+          vote: 4,
+          discount: "$199,99",
+          price: "$100",
+        },
+        {
+          img: require("../../img/246154_d8b0_3-272x161.jpg"),
+          info: "Development",
+          text: "Web Design for beginners:Real World Coding in HTML & CSS",
+          vote: 4,
+          discount: "$129,99",
+          price: "$65",
+        },
+        {
+          img: require("../../img/752950_b773-272x161.jpg"),
+          info: "Development",
+          text: "GitHub Ultimate: MAster GIt and GitHub- Beginner Expert",
+          vote: 4,
+          discount: "$99,99",
+          price: "$50",
+        },
+        {
+          img: require("../../img/1253188_58f7_2-272x161.jpg"),
+          info: "Development",
+          text: "the complete IOS 10 & Swift 3 Developer Course - Build 20 Apps",
+          vote: 4,
+          discount: "$199,99",
+          price: "$100",
+        },
+        {
+          img: require("../../img/919872_ed54_6-272x161.jpg"),
+          info: "Development",
+          text: "Android Java Masterclass - Become an App Developer",
+          vote: 4,
+          discount: "$99,99",
+          price: "$50",
+        },
+        {
+          img: require("../../img/951684_9c1a_2-272x161.jpg"),
           info: "Development",
           text: "Xamarin Forms:Build Native Cross-platform Apps with C#",
           vote: 4,
@@ -130,6 +197,14 @@ section {
   }
   .border-top {
     padding: 0.5rem;
+  }
+  .rounded-pill {
+    font-size: 12px;
+    color: gray;
+  }
+  .rounded-pill:hover {
+    background-color: lightgray;
+    cursor: pointer;
   }
 }
 </style>

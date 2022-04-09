@@ -3,7 +3,7 @@
     <div class="col-2 d-flex align-items-center">
       <img
         class="img-fluid"
-        src="../img/footer-logo2x-50x56.png"
+        src="../../img/footer-logo2x-50x56.png"
         alt="Master Study"
       />
       <p class="text-uppercase text-black mb-0"><b>Master</b>Study</p>

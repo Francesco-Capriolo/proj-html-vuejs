@@ -71,7 +71,7 @@ export default {
       autoPlay: null,
       courses: [
         {
-          img: require("../img/895786_7b4b_2-272x161.jpg"),
+          img: require("../../img/895786_7b4b_2-272x161.jpg"),
           info: "Development",
           text: "the complete IOS 10 & Swift 3 Developer Course",
           vote: 4,
@@ -79,7 +79,7 @@ export default {
           price: "$100",
         },
         {
-          img: require("../img/1561458_7f3b-272x161.jpg"),
+          img: require("../../img/1561458_7f3b-272x161.jpg"),
           info: "Design",
           text: "CSS - The Complete Guide 2020(incl. Flexbox,Grid & Sass)",
           vote: 4,
@@ -87,7 +87,7 @@ export default {
           price: "$100",
         },
         {
-          img: require("../img/246154_d8b0_3-272x161.jpg"),
+          img: require("../../img/246154_d8b0_3-272x161.jpg"),
           info: "Development",
           text: "Web Design for beginners:Real World Coding in HTML & CSS",
           vote: 4,
@@ -95,7 +95,7 @@ export default {
           price: "$65",
         },
         {
-          img: require("../img/1208228_d61c_4-272x161.jpg"),
+          img: require("../../img/1208228_d61c_4-272x161.jpg"),
           info: "Design",
           text: "Digitally Painting light and Color:Amateur to Master",
           vote: 4,
@@ -103,14 +103,14 @@ export default {
           price: "$70",
         },
         {
-          img: require("../img/186792_41e4_4-272x161.jpg"),
+          img: require("../../img/186792_41e4_4-272x161.jpg"),
           info: "Arts & Crafts",
           text: "Android Java Masterclass - Become an App Developer",
           vote: 4,
           price: "$199.99",
         },
         {
-          img: require("../img/1776542_30b1-272x161.jpg"),
+          img: require("../../img/1776542_30b1-272x161.jpg"),
           info: "Development",
           text: "Google Searching Ninja",
           vote: 4,
@@ -118,7 +118,7 @@ export default {
           price: "$95",
         },
         {
-          img: require("../img/949316_2a64_11-272x161.jpg"),
+          img: require("../../img/949316_2a64_11-272x161.jpg"),
           info: "Development",
           text: "the complete IOS 10 & Swift 3 Developer Course",
           vote: 4,
@@ -126,7 +126,7 @@ export default {
           price: "$100",
         },
         {
-          img: require("../img/366802_6fcc-272x161.jpg"),
+          img: require("../../img/366802_6fcc-272x161.jpg"),
           info: "Development",
           text: "Web Design for beginners:Real World Coding in HTML & CSS",
           vote: 4,
@@ -134,7 +134,7 @@ export default {
           price: "$65",
         },
         {
-          img: require("../img/381588_2e6d_4-272x161.jpg"),
+          img: require("../../img/381588_2e6d_4-272x161.jpg"),
           info: "Development",
           text: "GitHub Ultimate: MAster GIt and GitHub- Beginner Expert",
           vote: 4,
@@ -142,7 +142,7 @@ export default {
           price: "$50",
         },
         {
-          img: require("../img/838056_611a_3-272x161.jpg"),
+          img: require("../../img/838056_611a_3-272x161.jpg"),
           info: "Development",
           text: "the complete IOS 10 & Swift 3 Developer Course - Build 20 Apps",
           vote: 4,
@@ -150,7 +150,7 @@ export default {
           price: "$100",
         },
         {
-          img: require("../img/1414956_d944_15-272x161.jpg"),
+          img: require("../../img/1414956_d944_15-272x161.jpg"),
           info: "Development",
           text: "Android Java Masterclass - Become an App Developer",
           vote: 4,
@@ -158,7 +158,7 @@ export default {
           price: "$50",
         },
         {
-          img: require("../img/1109398_4c13-272x161.jpg"),
+          img: require("../../img/1109398_4c13-272x161.jpg"),
           info: "Development",
           text: "Xamarin Forms:Build Native Cross-platform Apps with C#",
           vote: 4,

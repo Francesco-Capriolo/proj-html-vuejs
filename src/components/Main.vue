@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import JumboMain from "./JumboMain.vue";
-import PopularCourses from "./PopularCourses.vue";
-import BannerLearn from "./BannerLearn.vue";
-import Carousel from "./Carousel.vue";
-import RecentCourses from "./RecentCourses.vue";
+import JumboMain from "./bannerComponents/JumboMain.vue";
+import PopularCourses from "./sectionsMain/PopularCourses.vue";
+import BannerLearn from "./bannerComponents/BannerLearn.vue";
+import Carousel from "./sectionsMain/Carousel.vue";
+import RecentCourses from "./sectionsMain/RecentCourses.vue";
 
 export default {
   name: "IndexMain",

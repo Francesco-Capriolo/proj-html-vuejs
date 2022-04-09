@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="col-6">
-      <img class="img-fluid" src="../img/slide-1.jpg" alt="" />
+      <img class="img-fluid" src="../../img/slide-1.jpg" alt="" />
     </div>
   </div>
 </template>
