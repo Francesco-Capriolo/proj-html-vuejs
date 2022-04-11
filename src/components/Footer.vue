@@ -34,7 +34,6 @@
         <i class="fab fa-linkedin my-circle m-2"></i>
         <i class="fab fa-pinterest my-circle m-2"></i>
         <i class="fab fa-twitter my-circle m-2"></i>
-        <i class="far fa-volleyball-ball my-circle m-2"></i>
         <i class="fab fa-google-plus my-circle m-2"></i>
         <i class="fab fa-skype my-circle m-2"></i>
       </div>
