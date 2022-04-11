@@ -3,10 +3,9 @@
     <div class="col-2 d-flex align-items-center">
       <img
         class="img-fluid"
-        src="../../img/footer-logo2x-50x56.png"
+        src="../../img/masterstudy-logo.svg"
         alt="Master Study"
       />
-      <p class="text-uppercase text-black mb-0"><b>Master</b>Study</p>
     </div>
     <div class="col-5 d-flex align-items-center">
       <span class="text-uppercase me-2" for="input">
@@ -67,8 +66,5 @@ export default {
   i {
     color: white;
   }
-}
-img {
-  filter: url("#red-sunset-with-purple");
 }
 </style>
