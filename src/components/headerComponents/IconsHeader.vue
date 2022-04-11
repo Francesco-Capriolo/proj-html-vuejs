@@ -45,8 +45,6 @@ export default {
 .row {
   padding: 0;
   background-color: #273044;
-}
-.bg-dark {
   height: 6vh;
   span {
     padding: 0 0.5rem;
