@@ -1,5 +1,5 @@
 <template>
-  <div class="row bg-dark align-items-center justify-content-center">
+  <div class="row align-items-center justify-content-center">
     <div class="d-inline text-center">
       <span class="text-white" v-for="(icon, index) in linksIcons" :key="index">
         <i :class="icon.icon"></i>
@@ -44,6 +44,7 @@ export default {
 <style lang="scss" scoped>
 .row {
   padding: 0;
+  background-color: #273044;
 }
 .bg-dark {
   height: 6vh;

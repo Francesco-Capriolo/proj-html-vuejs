@@ -10,7 +10,9 @@
       >
     </div>
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-4">
+    <div
+      class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-4 mb-5"
+    >
       <div
         class="col"
         v-for="(element, index) in courses"
@@ -49,6 +51,19 @@
         </div>
       </div>
     </div>
+    <div class="text-center mb-5">
+      <button class="btn rounded-pill btn-danger">SHOW ALL</button>
+    </div>
+    <span
+      class="d-flex flex-column end-0 top-50 align-items-end position-absolute"
+    >
+      <i
+        v-for="icon in iconsMarket"
+        :key="icon"
+        :class="icon"
+        class="p-2 border"
+      ></i>
+    </span>
   </section>
 </template>
 
@@ -67,6 +82,13 @@ export default {
         "Marketing",
         "Office Productivity",
       ],
+      iconsMarket: [
+        "fas fa-desktop",
+        "fas fa-life-ring",
+        "fas fa-wrench",
+        "fas fa-shopping-cart",
+        "fas fa-mobile-alt",
+      ],
       courses: [
         {
           img: require("../../img/895786_7b4b_2-272x161.jpg"),
@@ -77,49 +99,9 @@ export default {
           price: "$100",
         },
         {
-          img: require("../../img/246154_d8b0_3-272x161.jpg"),
-          info: "Development",
-          text: "Web Design for beginners:Real World Coding in HTML & CSS",
-          vote: 4,
-          discount: "$129,99",
-          price: "$65",
-        },
-        {
-          img: require("../../img/752950_b773-272x161.jpg"),
-          info: "Development",
-          text: "GitHub Ultimate: MAster GIt and GitHub- Beginner Expert",
-          vote: 4,
-          discount: "$99,99",
-          price: "$50",
-        },
-        {
-          img: require("../../img/1253188_58f7_2-272x161.jpg"),
-          info: "Development",
-          text: "the complete IOS 10 & Swift 3 Developer Course - Build 20 Apps",
-          vote: 4,
-          discount: "$199,99",
-          price: "$100",
-        },
-        {
-          img: require("../../img/919872_ed54_6-272x161.jpg"),
-          info: "Development",
-          text: "Android Java Masterclass - Become an App Developer",
-          vote: 4,
-          discount: "$99,99",
-          price: "$50",
-        },
-        {
-          img: require("../../img/951684_9c1a_2-272x161.jpg"),
-          info: "Development",
-          text: "Xamarin Forms:Build Native Cross-platform Apps with C#",
-          vote: 4,
-          discount: "$199,99",
-          price: "$95",
-        },
-        {
-          img: require("../../img/895786_7b4b_2-272x161.jpg"),
-          info: "Development",
-          text: "the complete IOS 10 & Swift 3 Developer Course",
+          img: require("../../img/1561458_7f3b-272x161.jpg"),
+          info: "Design",
+          text: "CSS - The Complete Guide 2020(incl. Flexbox,Grid & Sass)",
           vote: 4,
           discount: "$199,99",
           price: "$100",
@@ -133,36 +115,75 @@ export default {
           price: "$65",
         },
         {
-          img: require("../../img/752950_b773-272x161.jpg"),
-          info: "Development",
-          text: "GitHub Ultimate: MAster GIt and GitHub- Beginner Expert",
+          img: require("../../img/1208228_d61c_4-272x161.jpg"),
+          info: "Design",
+          text: "Digitally Painting light and Color:Amateur to Master",
           vote: 4,
-          discount: "$99,99",
-          price: "$50",
+          discount: "$139,99",
+          price: "$70",
         },
         {
-          img: require("../../img/1253188_58f7_2-272x161.jpg"),
-          info: "Development",
-          text: "the complete IOS 10 & Swift 3 Developer Course - Build 20 Apps",
-          vote: 4,
-          discount: "$199,99",
-          price: "$100",
-        },
-        {
-          img: require("../../img/919872_ed54_6-272x161.jpg"),
-          info: "Development",
+          img: require("../../img/186792_41e4_4-272x161.jpg"),
+          info: "Arts & Crafts",
           text: "Android Java Masterclass - Become an App Developer",
           vote: 4,
-          discount: "$99,99",
-          price: "$50",
+          price: "$199.99",
         },
         {
-          img: require("../../img/951684_9c1a_2-272x161.jpg"),
-          info: "Development",
-          text: "Xamarin Forms:Build Native Cross-platform Apps with C#",
+          img: require("../../img/1776542_30b1-272x161.jpg"),
+          info: "Google",
+          text: "Google Searching Ninja",
           vote: 4,
           discount: "$199,99",
           price: "$95",
+        },
+        {
+          img: require("../../img/949316_2a64_11-272x161.jpg"),
+          info: "Arts & Crafts",
+          text: "Foundations for Mastering Watercolor Painting",
+          vote: 4,
+          discount: "$19,99",
+          price: "$10",
+        },
+        {
+          img: require("../../img/366802_6fcc-272x161.jpg"),
+          info: "Food & Beverage",
+          text: "get Wine-Smart",
+          vote: 4,
+          discount: "$49,99",
+          price: "$25",
+        },
+        {
+          img: require("../../img/381588_2e6d_4-272x161.jpg"),
+          info: "Arts & Crafts",
+          text: "The colored Pencil Drawing Corde",
+          vote: 4,
+          discount: "$34,99",
+          price: "$18",
+        },
+        {
+          img: require("../../img/838056_611a_3-272x161.jpg"),
+          info: "Arts & Crafts",
+          text: "Paint Realistic Watercolor and Botanicals-STUDIO BASICS",
+          vote: 4,
+          discount: "$69,99",
+          price: "$35",
+        },
+        {
+          img: require("../../img/1414956_d944_15-272x161.jpg"),
+          info: "Arts & Crafts",
+          text: "Mastering Brushstrokes -Part 1",
+          vote: 4,
+          discount: "$19,99",
+          price: "$10",
+        },
+        {
+          img: require("../../img/1109398_4c13-272x161.jpg"),
+          info: "Arts & Crafts",
+          text: "Paint Realistic Watercolour and Botanicals-MAGNOLIAS",
+          vote: 4,
+          discount: "$69,99",
+          price: "$35",
         },
       ],
     };
@@ -177,6 +198,7 @@ section {
   .card {
     padding: 0;
     cursor: pointer;
+    min-height: 280px;
   }
   .fw-bold {
     padding: 0;
@@ -198,13 +220,21 @@ section {
   .border-top {
     padding: 0.5rem;
   }
-  .rounded-pill {
+  span.rounded-pill {
     font-size: 12px;
     color: gray;
   }
   .rounded-pill:hover {
     background-color: lightgray;
     cursor: pointer;
+  }
+  i {
+    min-width: 36px;
+    cursor: pointer;
+  }
+  i:hover {
+    background-color: gray;
+    color: white;
   }
 }
 </style>

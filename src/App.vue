@@ -1,19 +1,22 @@
 <template>
-  <div id="app" class="container-fluid">
+  <div id="app" class="container-fluid position-relative">
     <Header />
     <Main />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Header,
     Main,
+    Footer,
   },
 };
 </script>

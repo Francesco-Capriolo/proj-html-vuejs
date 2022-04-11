@@ -19,7 +19,6 @@
 <script>
 export default {
   name: "TopHeader",
-  props: ["list"],
   data: function () {
     return {
       links: [

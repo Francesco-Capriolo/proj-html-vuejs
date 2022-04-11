@@ -110,6 +110,7 @@ section {
   .card {
     padding: 0;
     cursor: pointer;
+    min-height: 280px;
   }
   .fw-bold {
     padding: 0;
