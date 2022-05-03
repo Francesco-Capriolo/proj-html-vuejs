@@ -229,8 +229,10 @@ section {
     cursor: pointer;
   }
   i {
-    min-width: 36px;
     cursor: pointer;
+  }
+  i.border {
+    min-width: 36px;
   }
   i:hover {
     background-color: gray;

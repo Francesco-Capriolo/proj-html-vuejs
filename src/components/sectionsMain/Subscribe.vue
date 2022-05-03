@@ -3,7 +3,7 @@
     class="row bg-danger justify-content-center align-items-center text-white"
   >
     <div class="col-12 col-md-8 d-flex flex-wrap">
-      <div class="col-12 col-md-7">
+      <div class="col-12 col-md-7 me-1">
         <h3>Subscribe our newsletter</h3>
         <p>
           there are many variations of passages of Lorem Ipsum avaible, but the
@@ -13,7 +13,7 @@
       </div>
       <div
         class="
-          col-12 col-md-5
+          col-12 col-md-4
           d-flex
           flex-column
           justify-content-center
@@ -54,6 +54,7 @@ p.text-uppercase {
   width: 75%;
   input {
     background-color: #f0f2f5;
+    min-width: 120px;
   }
 }
 .input-group-text {
